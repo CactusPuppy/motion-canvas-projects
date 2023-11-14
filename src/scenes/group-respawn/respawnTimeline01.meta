@@ -1,0 +1,66 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "firstDeath",
+      "targetTime": 4.192424491253438
+    },
+    {
+      "name": "player1-showGroupRespawnWindow",
+      "targetTime": 11.435227458733195
+    },
+    {
+      "name": "failRespawnRun01",
+      "targetTime": 18.80482064360834
+    },
+    {
+      "name": "player1-hideGroupRespawnWindow",
+      "targetTime": 19.913311677157438
+    },
+    {
+      "name": "player1-startRespawnRun01",
+      "targetTime": 20.93169890943224
+    },
+    {
+      "name": "player1-set01",
+      "targetTime": 22.581524928300208
+    },
+    {
+      "name": "secondDeath",
+      "targetTime": 22.831940741959947
+    },
+    {
+      "name": "player2-showGroupRespawnWindow",
+      "targetTime": 23.753085381268967
+    },
+    {
+      "name": "emphasize-respawn-group-02",
+      "targetTime": 25.253085381268967
+    },
+    {
+      "name": "succeedRespawnRun02",
+      "targetTime": 27.94319377846421
+    },
+    {
+      "name": "computeRespawnRun01Average",
+      "targetTime": 33.51294478670811
+    },
+    {
+      "name": "showRespawnRun01Average",
+      "targetTime": 37.41294478670812
+    },
+    {
+      "name": "groupRespawnRun01",
+      "targetTime": 38.91294478670812
+    },
+    {
+      "name": "end",
+      "targetTime": 40.96787323545586
+    },
+    {
+      "name": "fadeOut",
+      "targetTime": 41.87845495816291
+    }
+  ],
+  "seed": 4064989536
+}

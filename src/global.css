@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Config Medium';
+  src: local('Config Medium'), url('/fonts/Config-Medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Config Monospace';
+  src: local('Config Monospace'), url('/fonts/Config_Bold_Monospace.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Industry Light";
+  src: local("Industry Light"), url("/fonts/Industry-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Industry Demi";
+  src: local("Industry Demi"), url("/fonts/Industry-Demi.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Industry Black";
+  src: local("Industry Black"), url("/fonts/Industry-Black.otf") format("opentype");
+}

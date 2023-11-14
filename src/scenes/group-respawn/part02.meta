@@ -1,0 +1,278 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "revealDva",
+      "targetTime": 8.087234025626062
+    },
+    {
+      "name": "revealPharah",
+      "targetTime": 8.743765769170334
+    },
+    {
+      "name": "revealBastion",
+      "targetTime": 9.243765769170334
+    },
+    {
+      "name": "revealAna",
+      "targetTime": 10.019904194530024
+    },
+    {
+      "name": "revealIllari",
+      "targetTime": 10.83296768161857
+    },
+    {
+      "name": "hideHeroRoster",
+      "targetTime": 11.60920017022611
+    },
+    {
+      "name": "showKill01",
+      "targetTime": 14.48268165687201
+    },
+    {
+      "name": "player1-showGroupRespawnWindow",
+      "targetTime": 17.900045524932025
+    },
+    {
+      "name": "player1-resolveRespawnWindow",
+      "targetTime": 20.697970099112318
+    },
+    {
+      "name": "player1-hideGroupRespawnWindow",
+      "targetTime": 21.40902513481589
+    },
+    {
+      "name": "player1-startRespawnRun01",
+      "targetTime": 21.90902513481589
+    },
+    {
+      "name": "player1-set01",
+      "targetTime": 23.18555290442079
+    },
+    {
+      "name": "player2-death",
+      "targetTime": 23.515913300869393
+    },
+    {
+      "name": "player2-showGroupRespawnWindow",
+      "targetTime": 27.97241798723929
+    },
+    {
+      "name": "emphasize-respawn-group-02",
+      "targetTime": 32.65691096876301
+    },
+    {
+      "name": "succeedRespawnRun02",
+      "targetTime": 35.492373493860754
+    },
+    {
+      "name": "computeRespawnRun01Average-step01",
+      "targetTime": 39.732703249403045
+    },
+    {
+      "name": "computeRespawnRun01Average-step02",
+      "targetTime": 41.07241043111442
+    },
+    {
+      "name": "computeRespawnRun01Average-step02-sum",
+      "targetTime": 42.55161191837731
+    },
+    {
+      "name": "computeRespawnRun01Average-emphasizeNumPlayers",
+      "targetTime": 44.12511629670222
+    },
+    {
+      "name": "computeRespawnRun01Average-step03",
+      "targetTime": 46.39903349886804
+    },
+    {
+      "name": "computeRespawnRun01Average-step03-divide",
+      "targetTime": 48.58434584360026
+    },
+    {
+      "name": "showRespawnRun01Average",
+      "targetTime": 50.115379588490754
+    },
+    {
+      "name": "groupRespawnRun01",
+      "targetTime": 51.615379588490754
+    },
+    {
+      "name": "respawnRun01-showPlayer1Adjustment",
+      "targetTime": 55.190702672235915
+    },
+    {
+      "name": "respawnRun01-showPlayer2Adjustment",
+      "targetTime": 57.61571332758275
+    },
+    {
+      "name": "respawnRun01-hidePlayerAdjustments",
+      "targetTime": 58.92759705769821
+    },
+    {
+      "name": "preKill03-timeAdvance",
+      "targetTime": 60.20594787958868
+    },
+    {
+      "name": "showKill03",
+      "targetTime": 64.15871269500869
+    },
+    {
+      "name": "respawnRun03-emphasizeExistingRespawnTimes",
+      "targetTime": 66.67648255367799
+    },
+    {
+      "name": "respawnRun03-emphasizeNewRespawnTime",
+      "targetTime": 69.85243641092764
+    },
+    {
+      "name": "player3-showGroupRespawnWindow",
+      "targetTime": 72.2522134649121
+    },
+    {
+      "name": "emphasize-respawn-group-03",
+      "targetTime": 74.88646279374987
+    },
+    {
+      "name": "succeedRespawnRun03",
+      "targetTime": 77.55075604489073
+    },
+    {
+      "name": "computeRespawnRun03Average-step01",
+      "targetTime": 86.2317623360437
+    },
+    {
+      "name": "computeRespawnRun03Average-step02",
+      "targetTime": 87.41893548220168
+    },
+    {
+      "name": "computeRespawnRun03Average-step03",
+      "targetTime": 88.01893548220167
+    },
+    {
+      "name": "computeRespawnRun03Average-step04",
+      "targetTime": 90.1297328625026
+    },
+    {
+      "name": "computeRespawnRun03Average-step05",
+      "targetTime": 92.6594029850099
+    },
+    {
+      "name": "computeRespawnRun03Average-step06",
+      "targetTime": 93.4094029850099
+    },
+    {
+      "name": "computeRespawnRun03Average-step07",
+      "targetTime": 94.70156182312519
+    },
+    {
+      "name": "groupRespawnRun02",
+      "targetTime": 95.70156182312519
+    },
+    {
+      "name": "preKill04-timeAdvance",
+      "targetTime": 97.20156182312519
+    },
+    {
+      "name": "preKill04-timeAdvanceDuration",
+      "targetTime": 98.427094945953
+    },
+    {
+      "name": "emphasizeMaxRespawnTime",
+      "targetTime": 101.43748306787586
+    },
+    {
+      "name": "pushForwardSpawn",
+      "targetTime": 108.81162780449907
+    },
+    {
+      "name": "overtime",
+      "targetTime": 112.27225888473548
+    },
+    {
+      "name": "normalSpawn",
+      "targetTime": 114.25609579195313
+    },
+    {
+      "name": "showKill04",
+      "targetTime": 121.7312526050237
+    },
+    {
+      "name": "player04-emphasizeRespawnTime",
+      "targetTime": 124.77606217475368
+    },
+    {
+      "name": "respawnRun04-emphasizeOvertime",
+      "targetTime": 127.95356588812083
+    },
+    {
+      "name": "player4-showGroupRespawnWindow",
+      "targetTime": 132.0792882575187
+    },
+    {
+      "name": "failRespawnRun04",
+      "targetTime": 146.05654276052337
+    },
+    {
+      "name": "hideRespawnRun04",
+      "targetTime": 149.12696366574994
+    },
+    {
+      "name": "preKill05-timeAdvance",
+      "targetTime": 150.91177627852917
+    },
+    {
+      "name": "preKill05-timeAdvanceDuration",
+      "targetTime": 153.4093559370159
+    },
+    {
+      "name": "showKill05",
+      "targetTime": 153.4093559370159
+    },
+    {
+      "name": "player5-showGroupRespawnWindow",
+      "targetTime": 160.54029626410355
+    },
+    {
+      "name": "player05-emphasizeRespawnTime",
+      "targetTime": 163.89410753834312
+    },
+    {
+      "name": "successRespawnRun05",
+      "targetTime": 165.54971274183828
+    },
+    {
+      "name": "computeRespawnRun05Average-step01",
+      "targetTime": 168.43221279922557
+    },
+    {
+      "name": "computeRespawnRun05Average-step02",
+      "targetTime": 169.23221279922555
+    },
+    {
+      "name": "computeRespawnRun05Average-step03",
+      "targetTime": 170.3790743757354
+    },
+    {
+      "name": "computeRespawnRun05Average-step04",
+      "targetTime": 171.38760722640257
+    },
+    {
+      "name": "computeRespawnRun05Average-step05",
+      "targetTime": 172.18170623973492
+    },
+    {
+      "name": "computeRespawnRun05Average-step06",
+      "targetTime": 173.38632084602065
+    },
+    {
+      "name": "groupRespawnRun05",
+      "targetTime": 174.82846004446387
+    },
+    {
+      "name": "resumeAndFadeOut",
+      "targetTime": 176.70606524702742
+    }
+  ],
+  "seed": 65005200
+}
