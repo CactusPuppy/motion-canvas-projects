@@ -1,15 +1,15 @@
 import { Circle, Gradient, Grid, Img, Layout, Line, Node, Rect, Txt, makeScene2D } from "@motion-canvas/2d";
 import { Color, DEFAULT, Direction, Vector2, all, any, createRef, createSignal, delay, easeInCubic, easeInOutQuad, easeInQuad, easeOutCubic, easeOutQuad, easeOutSine, fadeTransition, linear, loop, loopFor, makeRef, range, sequence, useDuration, useLogger, waitFor, waitUntil } from "@motion-canvas/core";
 
-import { Hero, HeroIcon } from "../components/HeroIcon";
-import { KillfeedEntry } from "../components/KillfeedEntry";
-import { Typewriter } from "../components/Typewriter";
+import { Hero, HeroIcon } from "../../components/HeroIcon";
+import { KillfeedEntry } from "../../components/KillfeedEntry";
+import { Typewriter } from "../../components/Typewriter";
 
-import pulseBomb from "../../images/abilities/Pulse Bomb.png";
-import gravitonSurge from "../../images/abilities/Graviton Surge.png";
-import emphasisShake from "../utils/emphasisShake";
+import pulseBomb from "../../../images/abilities/Pulse Bomb.png";
+import gravitonSurge from "../../../images/abilities/Graviton Surge.png";
+import emphasisShake from "../../utils/emphasisShake";
 import { CodeBlock, insert, remove } from "@motion-canvas/2d/lib/components/CodeBlock";
-import { slideFadeOut } from "../utils/slideFades";
+import { slideFadeOut } from "../../utils/slideFades";
 
 export default makeScene2D(function* (view) {
   const logger = useLogger();

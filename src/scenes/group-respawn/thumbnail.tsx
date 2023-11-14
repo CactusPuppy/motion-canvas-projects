@@ -1,9 +1,9 @@
 import { Grid, Img, Layout, Line, Node, Rect, Txt, makeScene2D } from "@motion-canvas/2d";
-import { Hero, HeroIcon } from "../components/HeroIcon";
-import { KillfeedEntry } from "../components/KillfeedEntry";
+import { Hero, HeroIcon } from "../../components/HeroIcon";
+import { KillfeedEntry } from "../../components/KillfeedEntry";
 import { Color, createRef, useLogger } from "@motion-canvas/core";
 
-import pulseBomb from "../../images/abilities/Pulse Bomb.png";
+import pulseBomb from "../../../images/abilities/Pulse Bomb.png";
 
 export default makeScene2D(function* (view) {
   const width = 1920;

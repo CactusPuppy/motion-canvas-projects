@@ -2,10 +2,10 @@ import { makeScene2D, Grid, Node, Line, Txt, Gradient, Rect, Layout } from "@mot
 import {CodeBlock, insert, remove} from '@motion-canvas/2d/lib/components/CodeBlock';
 import { all, createRef, createSignal, Vector2, fadeTransition, makeRef, range, sequence, easeInQuad, easeOutQuad, delay, easeOutQuint, easeOutCubic, waitUntil, linear, waitFor, easeInOutBounce, easeOutBounce, useDuration, useLogger, easeInQuint, easeInCubic, any, loop, Color, DEFAULT, finishScene } from "@motion-canvas/core";
 
-import { Typewriter } from "../components/Typewriter";
-import { HeroIcon, Hero } from "../components/HeroIcon";
-import emphasisShake from "../utils/emphasisShake";
-import { KillfeedEntry } from "../components/KillfeedEntry";
+import { Typewriter } from "../../components/Typewriter";
+import { HeroIcon, Hero } from "../../components/HeroIcon";
+import emphasisShake from "../../utils/emphasisShake";
+import { KillfeedEntry } from "../../components/KillfeedEntry";
 
 export default makeScene2D(function* (view) {
   const logger = useLogger();
