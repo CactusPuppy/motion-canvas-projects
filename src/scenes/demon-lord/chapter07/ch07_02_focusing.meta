@@ -1,0 +1,22 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "titleFadeout",
+      "targetTime": 6.0609684725453645
+    },
+    {
+      "name": "showEichOverhead",
+      "targetTime": 6.860968472545364
+    },
+    {
+      "name": "showAnalysis",
+      "targetTime": 13.04035073366621
+    },
+    {
+      "name": "endScene",
+      "targetTime": 18.546440710261674
+    }
+  ],
+  "seed": 2853569123
+}

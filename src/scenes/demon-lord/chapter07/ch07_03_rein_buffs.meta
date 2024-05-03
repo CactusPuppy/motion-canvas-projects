@@ -1,0 +1,22 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "titleFadeout",
+      "targetTime": 3.1285276290196524
+    },
+    {
+      "name": "showGDCTalk",
+      "targetTime": 3.9285276290196522
+    },
+    {
+      "name": "showSidenote",
+      "targetTime": 11.632042555077636
+    },
+    {
+      "name": "endScene",
+      "targetTime": 13.221436887740092
+    }
+  ],
+  "seed": 3217271713
+}

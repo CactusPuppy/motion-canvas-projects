@@ -1,16 +1,16 @@
 {
   "version": 0,
   "shared": {
-    "background": "rgb(0,0,0)",
+    "background": null,
     "range": [
-      0,
-      null
+      65.26666566666667,
+      67.71648694937797
     ],
     "size": {
       "x": 1920,
       "y": 1080
     },
-    "audioOffset": 0
+    "audioOffset": -12.170396947434357
   },
   "preview": {
     "fps": 30,
@@ -25,7 +25,7 @@
       "options": {
         "fileType": "image/png",
         "quality": 100,
-        "groupByScene": false
+        "groupByScene": true
       }
     }
   }

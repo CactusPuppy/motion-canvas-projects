@@ -1,0 +1,30 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "startScene",
+      "targetTime": 20.06291532690248
+    },
+    {
+      "name": "quote",
+      "targetTime": 26.071382636655958
+    },
+    {
+      "name": "dismissQuote",
+      "targetTime": 35.02508038585211
+    },
+    {
+      "name": "dismissVideo",
+      "targetTime": 40.60732404430155
+    },
+    {
+      "name": "revealComplaints",
+      "targetTime": 54.37206145051807
+    },
+    {
+      "name": "endScene",
+      "targetTime": 58.80700250089318
+    }
+  ],
+  "seed": 851345474
+}

@@ -4,7 +4,8 @@ import { Direction, Origin, Vector2, all, easeInCubic, easeOutCubic, useLogger }
 export function* slideFadeIn(object: Layout, duration = 0.75, direction = Direction.Bottom, initialDisplacement = 0.25, timingFunction = easeOutCubic) {
   object.save();
 
-  yield* all(object.position(object.position().add(object.size().getOriginOffset(direction).scale(initialDisplacement)), 0), object.opacity(0, 0));
+  object.position(object.position().add(object.size().getOriginOffset(direction).scale(initialDisplacement)));
+  object.opacity(0);
 
   yield* object.restore(duration, timingFunction);
 }

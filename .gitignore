@@ -3,6 +3,12 @@ node_modules
 output
 dist
 
+# Copyrighted material/large files
+videos
+images
+audio
+public/fonts
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

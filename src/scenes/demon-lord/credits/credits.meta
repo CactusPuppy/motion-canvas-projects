@@ -1,0 +1,46 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "credit01",
+      "targetTime": 0.58841060440284
+    },
+    {
+      "name": "credit02",
+      "targetTime": 2.379225487368004
+    },
+    {
+      "name": "startCredits",
+      "targetTime": 4.764647224858243
+    },
+    {
+      "name": "creditsScroll",
+      "targetTime": 137.32496874316809
+    },
+    {
+      "name": "fadeThanks",
+      "targetTime": 148.59260507949975
+    },
+    {
+      "name": "thanksFade",
+      "targetTime": 153.69038000402693
+    },
+    {
+      "name": "endScreen01",
+      "targetTime": 154.7874829888627
+    },
+    {
+      "name": "endScreen02",
+      "targetTime": 155.9685892025235
+    },
+    {
+      "name": "endScreen03",
+      "targetTime": 157.26518893608332
+    },
+    {
+      "name": "endScene",
+      "targetTime": 162.6840174058827
+    }
+  ],
+  "seed": 3556954254
+}

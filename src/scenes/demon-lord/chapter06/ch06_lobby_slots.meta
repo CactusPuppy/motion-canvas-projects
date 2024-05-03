@@ -1,0 +1,30 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "lobbyslots_start",
+      "targetTime": 33.36384401799861
+    },
+    {
+      "name": "showPlaytesters",
+      "targetTime": 34.26672990989947
+    },
+    {
+      "name": "movePlaytestersIntoPlace",
+      "targetTime": 34.852549765553114
+    },
+    {
+      "name": "emphasizeEmptySlot",
+      "targetTime": 35.61254976555311
+    },
+    {
+      "name": "botFill",
+      "targetTime": 38.55248833266012
+    },
+    {
+      "name": "lobbySlots_end",
+      "targetTime": 41.55657582274774
+    }
+  ],
+  "seed": 3686825008
+}

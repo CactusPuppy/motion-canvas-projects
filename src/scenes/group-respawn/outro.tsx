@@ -38,59 +38,6 @@ export default makeScene2D(function* (view) {
     paddingLeft={outerHorizontalPadding}
     paddingRight={outerHorizontalPadding}
   >
-    {/* <Layout alignItems={"center"} direction={"column"} layout>
-      <Line
-        ref={creditsTopBar}
-        stroke={"#ffffffaa"}
-        lineCap={"round"}
-        lineWidth={8}
-        layout={false}
-        position={() => {return { x: 0, y: (creditsRef().size().getOriginOffset(Direction.Top).y) * creditsOpeningSignal() }}}
-        offset={() => {return { x: 0, y: -creditsOpeningSignal() }}}
-        start={() => 0.5 - 0.5 * creditsBarExpansionSignal()}
-        end={() => 0.5 + 0.5 * creditsBarExpansionSignal()}
-        opacity={() => creditsBarExpansionSignal()}
-      >
-        <Node position={() => creditsRef().size().getOriginOffset(Direction.Left)} />
-        <Node position={() => creditsRef().size().getOriginOffset(Direction.Right)} />
-      </Line>
-      <Node cache>
-        <Layout
-          ref={creditsRef}
-          maxWidth={1920 / 2.5}
-          textWrap={"pre"}
-          layout={false}
-          // top={() => {return { x: 0, y: -1080/2 + outerVerticalPadding - textScrollSignal() }}}
-          fontSize={48}
-          paddingTop={16}
-          paddingBottom={16}
-        >
-          <Txt fontFamily={"Config Monospace"} fill={"white"}>MUSIC</Txt>
-          <Txt fontFamily={"Config Monospace"} fill={"white"}>MUSIC</Txt>
-        </Layout>
-        <Rect
-          fill={"white"}
-          width={1920/2.5}
-          height={() => (creditsRef().height()) * creditsOpeningSignal()}
-          compositeOperation={"source-in"}
-        />
-      </Node>
-      <Line
-        ref={creditsBottomBar}
-        stroke={"#ffffffaa"}
-        lineCap={"round"}
-        lineWidth={8}
-        layout={false}
-        position={() => {return { x: 0, y: (creditsRef().size().getOriginOffset(Direction.Bottom).y) * creditsOpeningSignal() }}}
-        offset={() => {return { x: 0, y: creditsOpeningSignal() }}}
-        start={() => 0.5 - 0.5 * creditsBarExpansionSignal()}
-        end={() => 0.5 + 0.5 * creditsBarExpansionSignal()}
-        opacity={() => creditsBarExpansionSignal()}
-      >
-        <Node position={() => creditsRef().size().getOriginOffset(Direction.Left)} />
-        <Node position={() => creditsRef().size().getOriginOffset(Direction.Right)} />
-      </Line>
-    </Layout> */}
     <Rect width={1920 / 2.5}/>
     <Layout alignItems={"center"} direction={"column"} justifyContent={"space-between"} height={1080 - 2*outerVerticalPadding} paddingTop={16} paddingBottom={16}>
       <Circle

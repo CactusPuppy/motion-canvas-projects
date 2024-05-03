@@ -1,0 +1,26 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "titleFadeout",
+      "targetTime": 4.773936120045565
+    },
+    {
+      "name": "theory",
+      "targetTime": 8.448968459838362
+    },
+    {
+      "name": "reinSad",
+      "targetTime": 13.669595359988229
+    },
+    {
+      "name": "ultimate",
+      "targetTime": 16.00070266252293
+    },
+    {
+      "name": "endScene",
+      "targetTime": 18.196802796837638
+    }
+  ],
+  "seed": 2057342636
+}

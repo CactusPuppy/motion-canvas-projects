@@ -34,6 +34,8 @@ import Lifeweaver3DImage from "../../images/heroes/lifeweaver-3d.png";
 import LifeweaverFlatImage from "../../images/heroes/lifeweaver-flat.png";
 import Lucio3DImage from "../../images/heroes/lucio-3d.png";
 import LucioFlatImage from "../../images/heroes/lucio-flat.png";
+import Mauga3DImage from "../../images/heroes/mauga-3d.png";
+import MaugaFlatImage from "../../images/heroes/mauga-flat.png";
 import Mei3DImage from "../../images/heroes/mei-3d.png";
 import MeiFlatImage from "../../images/heroes/mei-flat.png";
 import Mercy3DImage from "../../images/heroes/mercy-3d.png";
@@ -95,6 +97,7 @@ export enum Hero {
   Kiriko = "kiriko",
   Lifeweaver = "lifeweaver",
   Lucio = "lucio",
+  Mauga = "mauga",
   Mei = "mei",
   Mercy = "mercy",
   Moira = "moira",
@@ -186,6 +189,10 @@ export const HeroImages = {
   lucio: {
     flat: LucioFlatImage,
     threeD: Lucio3DImage
+  },
+  mauga: {
+    flat: MaugaFlatImage,
+    threeD: Mauga3DImage
   },
   mei: {
     flat: MeiFlatImage,

@@ -1,0 +1,74 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "showPortalPlaytesting",
+      "targetTime": 5.67731744695718
+    },
+    {
+      "name": "playtestMotto_01",
+      "targetTime": 9.400000374357548
+    },
+    {
+      "name": "playtestMotto_02",
+      "targetTime": 10.31876580664903
+    },
+    {
+      "name": "removePlaytestMotto",
+      "targetTime": 11.67271632540402
+    },
+    {
+      "name": "hideGMTKClip",
+      "targetTime": 15.163613162950634
+    },
+    {
+      "name": "showTDMScoreboard",
+      "targetTime": 25.978856578752705
+    },
+    {
+      "name": "heroOPDuration",
+      "targetTime": 27.47239320888322
+    },
+    {
+      "name": "reinOP",
+      "targetTime": 27.97239320888322
+    },
+    {
+      "name": "reinOPDuration",
+      "targetTime": 29.205544166108055
+    },
+    {
+      "name": "hideTDMScoreboard",
+      "targetTime": 29.236741741465973
+    },
+    {
+      "name": "showPowerupConcerns",
+      "targetTime": 29.736741741465973
+    },
+    {
+      "name": "hidePowerupConcerns",
+      "targetTime": 32.751213750291484
+    },
+    {
+      "name": "showVaryingLobbies",
+      "targetTime": 33.751213750291484
+    },
+    {
+      "name": "showFirstRankSet",
+      "targetTime": 34.403634191583656
+    },
+    {
+      "name": "showSecondRankSet",
+      "targetTime": 35.39335684670048
+    },
+    {
+      "name": "showThirdRankSet",
+      "targetTime": 36.371683670805965
+    },
+    {
+      "name": "hideLobbySlots",
+      "targetTime": 37.84346418302703
+    }
+  ],
+  "seed": 25245361
+}

@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Noto+Sans:wght@300&family=Roboto:ital,wght@0,100;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200;300&display=swap');
+
 
 @font-face {
   font-family: 'Config Medium';
@@ -23,4 +27,24 @@
 @font-face {
   font-family: "Industry Black";
   src: local("Industry Black"), url("/fonts/Industry-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "BigNoodleTooOblique";
+  src: local("BigNoodleTooOblique"), url("/fonts/bignoodletoo.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Blizzard Global";
+  src: local("Blizzard Global"), url("/fonts/Blizzard_Global.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Lemon Milk";
+  src: local("LEMON MILK"), url("/fonts/LEMONMILK-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Lemon Milk";
+  src: local("LEMON MILK"), url("/fonts/LEMONMILK-BoldItalic.otf") format("opentype");
 }

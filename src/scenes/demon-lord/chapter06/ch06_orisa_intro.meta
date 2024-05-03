@@ -1,0 +1,38 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "startScene",
+      "targetTime": 20.475188987389057
+    },
+    {
+      "name": "showJQIcon",
+      "targetTime": 21.47502983038511
+    },
+    {
+      "name": "showOrisaIcon",
+      "targetTime": 22.665008096938266
+    },
+    {
+      "name": "orisaIntro",
+      "targetTime": 23.58356812050903
+    },
+    {
+      "name": "moveIconsToTop",
+      "targetTime": 24.404475569079818
+    },
+    {
+      "name": "emphasizeJQIcon",
+      "targetTime": 25.39756266578538
+    },
+    {
+      "name": "emphasizeOrisaIcon",
+      "targetTime": 30.82523434255897
+    },
+    {
+      "name": "hideAll",
+      "targetTime": 36.87517032626309
+    }
+  ],
+  "seed": 1070056367
+}

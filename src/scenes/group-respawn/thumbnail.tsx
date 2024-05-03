@@ -57,7 +57,7 @@ export default makeScene2D(function* (view) {
     <HeroIcon
       hero={Hero.Brigitte}
       x={500}
-      y={-32}
+      y={256}
       size={256}
       isFlat={true}
       radius={16}
@@ -78,7 +78,7 @@ export default makeScene2D(function* (view) {
       shadowBlur={16}
       endArrow={true}
       arrowSize={72}
-      y={-32}
+      y={256}
     >
       <Node x={500-128-16}/>
       <Node x={-50+5} />
@@ -86,7 +86,7 @@ export default makeScene2D(function* (view) {
     <HeroIcon
       hero={Hero.Ana}
       x={-600}
-      y={32}
+      y={320}
       size={256}
       isFlat={true}
       radius={16}
@@ -107,7 +107,7 @@ export default makeScene2D(function* (view) {
       shadowBlur={16}
       endArrow={true}
       arrowSize={72}
-      y={32}
+      y={320}
     >
       <Node x={-600+128+16}/>
       <Node x={-50-5} />
@@ -118,7 +118,7 @@ export default makeScene2D(function* (view) {
       killerHero={Hero.Tracer}
       victimName="Ana"
       victimHero={Hero.Ana}
-      nodeProps={{scale: 2.5, x: 100, y: -330, shadowColor: "black", shadowBlur: 64}}
+      nodeProps={{scale: 2.5, x: -50, y: -330, shadowColor: "black", shadowBlur: 64}}
       abilityIcon={(<Layout cache y={-4} layout justifyContent={"center"} alignItems={"center"}>
         <Img src={pulseBomb} size={64} />
         <Rect layout={false} size={64} fill={'black'} compositeOperation={"source-in"} />
@@ -130,10 +130,10 @@ export default makeScene2D(function* (view) {
         fontFamily={"Industry Black"}
         fill={"white"}
         shadowColor={"black"}
-        fontSize={172}
+        fontSize={180}
         shadowBlur={32}
-        x={-380}
-        y={325}
+        x={-400}
+        y={-24}
       >
         GROUP
       </Txt>
@@ -144,7 +144,7 @@ export default makeScene2D(function* (view) {
         fontSize={172}
         shadowBlur={32}
         x={400}
-        y={325}
+        y={-48}
       >
         RESPAWN
       </Txt>

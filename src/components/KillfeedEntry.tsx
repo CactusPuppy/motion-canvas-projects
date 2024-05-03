@@ -96,15 +96,18 @@ export class KillfeedEntry extends Node {
       padding={12} alignItems={"center"}
       fill={connectorBgColor}/>);
 
-    if (props.wasCrit && !props.abilityIcon) {
-      this.connector().add(<SVG svg={critIcon} size={40} marginRight={-2} fill={'red'} filters={[blur(0.75)]} />);
-    } else if (props.abilityIcon) {
+
+    if (props.abilityIcon) {
       if (props.abilityWasUltimate) {
         this.connector().add(<Circle layout={false} position={() => props.abilityIcon.position()} size={70} fill='white' shadowColor={"#19bef6"} shadowBlur={32} />);
         this.connector().fill(() => new Gradient({from: props.abilityIcon.position(), to: this.connector().right(), stops: [{color: "#0000", offset: 0}, {color: connectorBgColor, offset: 0.00001}]}))
       }
 
       this.connector().add(props.abilityIcon);
+    }
+
+    if (props.wasCrit) {
+      this.connector().add(<SVG svg={critIcon} size={40} marginRight={-2} fill={'red'} filters={[blur(0.75)]} />);
     }
     const arrowAspectRatio = 12.845 / 22.59;
     const arrowHeight = 42;

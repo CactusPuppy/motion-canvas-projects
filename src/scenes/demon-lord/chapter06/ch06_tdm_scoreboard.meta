@@ -1,0 +1,22 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "TDMScoreboard_Appear",
+      "targetTime": 1.0585842148087874
+    },
+    {
+      "name": "TDMScoreboard_ReinWin",
+      "targetTime": 2.2924057499321937
+    },
+    {
+      "name": "TDMScoreboard_HeroesWin",
+      "targetTime": 4.137800366192082
+    },
+    {
+      "name": "TDMScoreboard_Disappear",
+      "targetTime": 6.210984987392407
+    }
+  ],
+  "seed": 1314418899
+}

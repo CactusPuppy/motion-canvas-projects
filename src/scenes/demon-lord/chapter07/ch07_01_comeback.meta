@@ -1,0 +1,50 @@
+{
+  "version": 0,
+  "timeEvents": [
+    {
+      "name": "titleFadeout",
+      "targetTime": 5.630058429576912
+    },
+    {
+      "name": "showEscortProgress",
+      "targetTime": 9.76111768139994
+    },
+    {
+      "name": "startPayloadProgress",
+      "targetTime": 20.25965355480576
+    },
+    {
+      "name": "finishPayloadProgress",
+      "targetTime": 34.57730236965057
+    },
+    {
+      "name": "showAttackerRunbackTime",
+      "targetTime": 20.25965355480576
+    },
+    {
+      "name": "showDefenderRunbackTime",
+      "targetTime": 22.561829453130766
+    },
+    {
+      "name": "hideRunbackTimes",
+      "targetTime": 25.509104165147246
+    },
+    {
+      "name": "showTDMScoreboard",
+      "targetTime": 26.076009340178242
+    },
+    {
+      "name": "startTDMScoreboard",
+      "targetTime": 26.675679097827636
+    },
+    {
+      "name": "tdmScoreboard",
+      "targetTime": 31.87902630954133
+    },
+    {
+      "name": "endScene",
+      "targetTime": 33.68365891706157
+    }
+  ],
+  "seed": 2818303957
+}
