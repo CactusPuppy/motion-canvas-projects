@@ -6,7 +6,9 @@ export default defineConfig({
   plugins: [
     motionCanvas({
       output: "./output",
-      project: ["./src/projects/group-respawn/project.ts", "./src/projects/group-respawn/outro.ts", "./src/projects/group-respawn/thumbnail.ts", "./src/projects/demon-lord/*.ts"]
+      project: [
+        "./src/projects/**/*.ts"
+    ]
     }),
     ffmpeg()
   ],
